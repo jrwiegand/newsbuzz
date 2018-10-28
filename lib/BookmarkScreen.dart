@@ -1,11 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:share/share.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:firebase_database/ui/firebase_animated_list.dart';
-import 'package:timeago/timeago.dart';
 import './globalStore.dart' as globalStore;
 
 class BookmarksScreen extends StatefulWidget {
